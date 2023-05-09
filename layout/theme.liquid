@@ -254,6 +254,14 @@
   </head>
 
   <body class="gradient">
+    {% comment %} {% assign video_url = 'https://cdn.shopify.com/videos/c/o/v/4d8c3a6e392042128dce8af67b79b297.mp4' %}
+    {% assign video_autoplay = true %}
+    {% assign video_loop = true %}
+    {% assign video_muted = true %}
+    {% assign video_controls = false %}
+    {% assign video_poster = '' %}
+    {% include 'background-video' %} {% endcomment %}
+
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
       {{ 'accessibility.skip_to_text' | t }}
     </a>
@@ -262,15 +270,7 @@
       {%- render 'cart-drawer' -%}
     {%- endif -%}
 
-    <video autoplay muted loop id="video-background" class="video-background">
-      <source src="https://cdn.shopify.com/videos/c/o/v/4d8c3a6e392042128dce8af67b79b297.mp4" type="video/mp4">
-      <source src="{{ 'your-video-file.webm' | asset_url }}" type="video/webm">
-      <!-- Fallback for unsupported browsers -->
-      {% comment %} <img src="{{ 'your-video-fallback-image.jpg' | asset_url }}" alt=""> {% endcomment %}
-    </video>
 
-    <section class="section">
-      <article class="content">
         {% sections 'header-group' %}
 
         <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
@@ -278,8 +278,7 @@
         </main>
 
         {% sections 'footer-group' %}
-      </article>
-    </section>
+  
 
     <ul hidden>
       <li id="a11y-refresh-page-message">{{ 'accessibility.refresh_page' | t }}</li>
