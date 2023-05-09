@@ -1,0 +1,624 @@
+/* FONTS */
+/* Lateral-XExpandedBlack */
+@font-face {
+  font-family: LatXE;
+  src: url(https://cdn.shopify.com/s/files/1/0633/1505/0725/files/Lateral-XExpandedBlack.otf?v=1653751173);
+  font-display: swap;
+}
+
+/* Lateral-XCompressedBlack */
+@font-face {
+  font-family: LatXC;
+  src: url(https://cdn.shopify.com/s/files/1/0633/1505/0725/files/Lateral-XCompressedBlack.otf?v=1653751173);
+  font-display: swap;
+}
+
+/* Lateral-StandardBlack */
+@font-face {
+  font-family: LatS;
+  src: url(https://cdn.shopify.com/s/files/1/0633/1505/0725/files/Lateral-StandardBlack.otf?v=1653751173);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: armyThin;
+  src: url(https://cdn.shopify.com/s/files/1/0633/1505/0725/files/ArmyThin.woff?v=1647926504);
+  font-display: swap;
+}
+
+a,
+b,
+button,
+dd,
+div,
+dt,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+label,
+li,
+p,
+td,
+ul,
+.h0,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: "LatS";
+}
+
+* {
+  box-sizing: border-box;
+}
+
+figure {
+  margin: 0;
+}
+
+:root {
+  --scale: 0.6;
+}
+
+/* .section {
+  transform-origin: left top;
+  transform: scaleY(calc(1 - var(--scale)));
+}
+
+.section > * {
+  transform-origin: left top;
+  transform: scaleY(calc(1 / (1 - var(--scale))));
+} */
+/* 
+.content {
+  position: relative;
+  width: 100%;
+} */
+
+/* .content > * + * {
+  margin-top: 2rem;
+} */
+
+/* .image-container {
+  position: sticky;
+  top: 0;
+  width: 100vw;
+  z-index: -2;
+}
+
+.image-container img {
+  display: block;
+  position: absolute;
+  top: 0;
+  width: 100vw;
+} */
+
+.topper-97 {
+  top: -97cm !important;
+}
+
+.topper-150 {
+  top: -237cm !important;
+}
+
+/* anouncment bar */
+#shopify-section-announcement-bar > div > p {
+  color: green;
+  font-size: 2em;
+}
+
+#shopify-section-announcement-bar > div {
+  background-color: #010112;
+}
+
+/* Header*/
+#shopify-section-header {
+  background-color: #010112;
+  border-bottom: solid 1rem #b8b8b8;
+  padding: 0;
+  margin: 0;
+}
+
+#menu-drawer {
+  background-color: #010112;
+  font-family: LatXE;
+}
+
+/* Header */
+.JFS {
+  font-family: "Jacques Francois Shadow";
+}
+
+#shopify-section-header > sticky-header > header > nav > ul {
+  font-family: "LatXC";
+  font-size: 3rem;
+}
+
+.list-menu__item {
+  font-family: "LatXC";
+  font-size: 3rem;
+}
+
+.headLogo {
+  display: flex;
+  font-size: calc(4vw + 2vmin);
+  margin: 0;
+}
+
+/* Body */
+/* multicolumn title */
+h2.title.h2 {
+  text-shadow: #111 3px 2px 7px;
+}
+
+div.card__content > div > h3 > a {
+  font-family: LatXE;
+  font-size: 0.8em;
+}
+
+#shopify-section-footer
+  > footer
+  div.footer__content-top.page-width
+  div
+  div
+  div
+  p
+  a
+  strong,
+#shopify-section-footer
+  > footer
+  > div.footer__content-top.page-width
+  > div
+  > div
+  > div
+  > p
+  > a {
+  font-family: LatXC;
+  font-size: calc(3vw + 2vmin);
+  text-decoration: none;
+}
+
+.apesX {
+  display: flex;
+  font-size: calc(8vw + 2vmin);
+  justify-content: center;
+}
+
+.apesX1 {
+  font-family: LatXE;
+}
+
+.apesX2 {
+  font-family: LatXC;
+}
+
+.spacer {
+  height: 10rem;
+}
+
+/* Products */
+h1.title.title--primary,
+h2.title.title-wrapper--no-top-margin.h1,
+.caption-with-letter-spacing,
+#FacetsWrapperDesktop,
+#SortBy,
+#ProductCountDesktop,
+div.shopify-policy__title > h1,
+h1.cart__empty-text,
+h1#login,
+#MainContent > div > div h1,
+#MainContent > div > div:nth-child(2) > div:nth-child(1) > h2 {
+  font-family: LatXE;
+  color: #fff;
+  text-shadow: #111 3px 2px 7px;
+}
+
+.appstle_membership_blocker_wrapper {
+  font-family: LatXE;
+  color: #fff;
+  font-size: 2em !important;
+  text-shadow: #111 3px 2px 7px;
+}
+
+h1.main-page-title.page-title.h0 {
+  font-family: LatXE;
+  font-size: calc(2vw + 1vmin);
+  color: #fff;
+  text-shadow: #111 3px 2px 7px;
+}
+
+div.product__title > h1,
+#verticalTitle,
+#FacetFiltersForm > div.facet-filters.sorting.caption > div > h2 > label,
+div.product__tax.caption.rte,
+/* .shopify-cleanslate span,  */
+.shopify-cleanslate div,
+.shopify-cleanslate button,
+.shopify-cleanslate span.GbgDkvQbxy7QHgLF5df9 {
+  font-family: LatXC;
+  color: #fff !important;
+  text-shadow: #111 3px 2px 7px;
+}
+
+h1.collection-hero__title,
+h2.product__title.h0,
+button.share-button__button,
+#product-grid
+  > li
+  > div
+  > div
+  > div.card__content
+  > div.card__information
+  > div
+  > div,
+div.price__regular > span.price-item.price-item--regular,
+button.shopify-payment-button__more-options,
+div.shopify-payment-button__button.shopify-payment-button__button--branded
+  div
+  div
+  span,
+shopify-payment-terms,
+variant-radios > fieldset,
+div.product-form__input.product-form__quantity,
+div.product__description,
+#MainContent > div > div.shopify-policy__body,
+#MainContent > div > div.shopify-policy__body > div > h4,
+#MainContent > div > div.shopify-policy__body > div > h5,
+div.contact,
+.collection-list-title,
+.rich-text__blocks > h2,
+h2.title.title-wrapper--no-top-margin.h2,
+div.rte > h2 > a,
+a.link.product__view-details.animate-arrow,
+div.appstle_sub_widget,
+td.cart-item__details,
+td.cart-item__details a,
+td.cart-item__totals.right.small-hide > div.cart-item__price-wrapper > span,
+#main-cart-footer > div > div > div > div.js-contents,
+div.collection__title.title-wrapper h2,
+div.title-wrapper-with-link a,
+.totals__subtotal,
+h2.cart__login-title,
+p.cart__login-paragraph,
+#cart-notification > div.cart-notification__links > button,
+#cart-notification > div.cart-notification__header > h2,
+#cart-notification-product div.product-option dd,
+#cart-notification-product div.product-option dt,
+#shopify-section-template--16625775509733__main > div > div > form,
+#customer_login h2,
+div.errors,
+#create_customer > h2,
+#create_customer > ul > li {
+  color: #fff;
+  text-shadow: #111 3px 2px 7px;
+}
+
+/* contact form */
+#ContactForm > div.contact__fields > div > label,
+#ContactForm > div > label,
+#ContactForm > div.contact__button > button,
+.product-form__submit,
+div.cart-notification__links > a,
+#cart-notification-form > button,
+#checkout,
+div.cart__warnings a,
+#customer_login > button,
+#MainContent > div > form > input.shopify-challenge__button.btn,
+#MainContent > div > form > button,
+#create_customer > button,
+#MainContent > div > div > button,
+button[aria-label="Edit address 1"],
+button[aria-label="Delete 1"],
+button[aria-label="Delete 2"],
+button[aria-label="Edit address 2"],
+.appstle_membership_wrapper_option,
+.template-404 a,
+#MainContent > div > a.appstle_manageSubBtn > button {
+  color: #000;
+  text-decoration: none !important;
+}
+
+.product-form__input input[type="radio"] + label {
+  text-shadow: none;
+}
+
+form#FacetFiltersForm h2,
+form#FacetFiltersForm summary,
+#SortBy,
+div.card__information h3 a,
+div.card__information div.price,
+div.appstle_tooltip_wrapper,
+#Remove-1 > a > svg {
+  color: #fff !important;
+  text-shadow: #111 3px 2px 7px;
+}
+
+.appstle_circle {
+  border: 2px solid #fff !important;
+}
+
+.appstle_dot {
+  background-color: #fff !important;
+}
+
+.tooltip_subscription_svg {
+  fill: #fff !important;
+}
+
+#SortBy option {
+  background-color: #aaa;
+}
+
+.global-media-settings {
+  background-color: transparent;
+}
+
+/* Footer */
+.copyright__content {
+  font-family: LatXE;
+}
+
+.footer-block.grid__item {
+  text-shadow: #111 3px 2px 7px;
+}
+
+/* media queries  full screen */
+@media screen and (min-width: 749px) {
+  /* move home page footer up */
+  .section-sections--16751274492133__footer-padding {
+    position: relative;
+    top: -643rem;
+  }
+
+  /* policies centered */
+  #shopify-section-footer
+    > footer
+    > div.footer__content-top.page-width
+    > div.footer__blocks-wrapper.grid.grid--1-col.grid--2-col.grid--4-col-tablet
+    > div:nth-child(3)
+    > div
+    > p {
+    text-align: center;
+  }
+
+  #Slider-template--16272524738789__1660949035f196f74b
+    div.multicolumn-card.content-container {
+    width: 47em !important;
+  }
+
+  /* .header--middle-left {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 0 2rem;
+    margin: 0;
+  } */
+
+  a.link.list-social__link svg.icon,
+  #shopify-section-footer
+    > footer
+    > div.footer__content-top.page-width
+    > div.footer-block--newsletter
+    > ul
+    > li:nth-child(4)
+    > a
+    > svg {
+    height: 5rem;
+    width: 5rem;
+  }
+
+  /* note: moves sections up page ***********/
+  /* DEBUG */
+  /* CUSTOM */
+  /* #shopify-section-template--16751274033381__bde6b1f1-40a2-4432-aa62-d39b5c6ab3a7
+    > div {
+    position: relative;
+    top: -273rem;
+  } */
+
+  /* OFF-DUTY SWAG */
+  /* #shopify-section-template--1675127403338116751274033381__41d9cda6-bfef-4c27-9760-b3f36ce9622c
+    > div {
+    position: relative;
+    top: -546rem;
+  } */
+
+  /* CUSTOM ON-DUTY SHIRTS */
+  /* #shopify-section-template--1675127403338116751274033381__1d1d8345-f7b5-4ea2-aff8-7126c8e453c7
+    > div {
+    position: relative;
+    top: -818rem;
+  } */
+
+  /* SPORTS GEAR */
+  /* #shopify-section-template--1675127403338116751274033381__a4d8221a-8cbd-4e3a-9f0d-8b69fa4bdd81
+    > div {
+    position: relative;
+    top: -1090rem;
+  } */
+
+  /* HOLIDAY JOY */
+  /* #shopify-section-template--16751274033381__c0a91385-2033-4a95-aead-f60af1143f1f
+    > div {
+    position: relative;
+    top: -1362rem;
+  } */
+
+  /* krew */
+  #shopify-section-template--16751274033381__16620740233ae36dce > div {
+    position: relative;
+    top: -1623rem;
+  }
+
+  /* push footer up */
+  #shopify-section-footer > footer {
+    position: relative;
+    top: -643rem;
+  }
+
+  /* moves sections into middle */
+  /* #shopify-section-template--16751274033381__1661205021dc147d32 > div > div,
+  #shopify-section-template--16751274033381__41d9cda6-bfef-4c27-9760-b3f36ce9622c
+    > div
+    > div,
+  #shopify-section-template--16751274033381__c0a91385-2033-4a95-aead-f60af1143f1f
+    > div
+    > div,
+  #shopify-section-template--16751274033381__a4d8221a-8cbd-4e3a-9f0d-8b69fa4bdd81
+    > div
+    > div,
+  #shopify-section-template--16751274033381__1d1d8345-f7b5-4ea2-aff8-7126c8e453c7
+    > div
+    > div,
+  #shopify-section-template--16751274033381__bde6b1f1-40a2-4432-aa62-d39b5c6ab3a7
+    > div
+    > div {
+    margin-left: -3rem;
+  } */
+
+  /* MEET THE KREW */
+  #shopify-section-template--16751274033381__db8294e5-2f0f-4633-b331-6d2ac627df96
+    > div {
+    position: relative;
+    top: -1623rem;
+  }
+
+  /* pushes column header text to left end of cards */
+  .title-wrapper-with-link.title-wrapper--self-padded-mobile.title-wrapper--no-top-margin
+    > h2,
+  .title-wrapper-with-link.title-wrapper--self-padded-mobile.title-wrapper--no-top-margin,
+  .collection-list-title.h2,
+  .title-wrapper-with-link.title-wrapper--self-padded-tablet-down.title-wrapper--no-top-margin {
+    margin-left: 10rem;
+  }
+
+  #shopify-section-template--16682270163173__16620740233ae36dce
+    > div
+    > div
+    > div.title-wrapper-with-link.title-wrapper--self-padded-mobile.title-wrapper--no-top-margin
+    > h2 {
+    margin-left: -9rem;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .spacer {
+    height: 1vw;
+  }
+}
+
+/* ccfd members club page */
+/* image */
+#MainProduct-template--16635525693669__main
+  > div
+  > div.grid__item.product__media-wrapper {
+  max-width: 30%;
+  width: calc(30% - var(--grid-desktop-horizontal-spacing) / 2);
+}
+
+/* text */
+#MainProduct-template--16635525693669__main
+  > div
+  > div.product__info-wrapper.grid__item {
+  max-width: 70%;
+  width: calc(70% - var(--grid-desktop-horizontal-spacing) / 2);
+}
+
+#ProductInfo-template--16635525693669__main.product__info-container.product__info-container--sticky {
+  max-width: 100%;
+}
+
+/* announcement-bar */
+#shopify-section-announcement-bar > div > p {
+  font-family: LatXC;
+}
+
+.membut a:not([href]) {
+  cursor: default;
+}
+
+.membut a:link {
+  text-decoration: none;
+}
+
+.membut a:visited {
+  text-decoration: none;
+}
+
+.membut button {
+  padding: 1em 3em;
+  border: 0;
+  border-radius: 25px;
+  background: #fff;
+}
+
+.membut button:hover {
+  background-color: #ff0;
+}
+
+.membut {
+  text-align: center;
+}
+
+.appstle-discount-banner {
+  display: none;
+}
+
+.as-bg-indigo-600 {
+  background: #aaa !important;
+}
+
+#Slide-template--16272524738789__e646e052-c3b5-43a5-ad92-7da798d9306e-1 {
+  max-width: 30em;
+}
+
+#shopify-section-template--16636715598053__01f93321-57ae-4448-8006-a093fe791e1c
+  > div
+  > div
+  > slider-component {
+  max-width: 40em;
+}
+
+#Slide-template--16272524738789__e9843540-86af-4037-9415-6f0eca319c14-1
+  > div
+  > a
+  > div {
+  height: 26em;
+}
+
+#Slide-template--16272524738789__e9843540-86af-4037-9415-6f0eca319c14-1
+  > div
+  > a
+  > div
+  > div
+  > img {
+  height: 25em;
+}
+
+/* note: new stuff ****************************************************************************************/
+
+.multicolumn-card__image-wrapper.multicolumn-card__image-wrapper--full-width {
+  box-shadow: #111 5px 10px 5px;
+  border-radius: 10px;
+}
+
+.gallery__item.media.media--transparent.media--square {
+  border-radius: 10px;
+}
+
+/* note: freewear ************************************************************************************/
+
+#facetOptions {
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 18, 0.6),
+    rgba(1, 1, 18, 1)
+  );
+  opacity: 0.9;
+}
