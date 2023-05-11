@@ -24,7 +24,7 @@
     "header": {
       "type": "header",
       "custom_css": [
-        "span {color: #fff; text-shadow: #111 3px 2px 7px;}"
+        "@media screen and (min-width: 749px) {span {color: #fff; text-shadow: #111 3px 2px 7px; }}"
       ],
       "settings": {
         "logo_position": "top-center",
