@@ -8,7 +8,7 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "Welcome to our store",
+            "text": "Thank you for your service!",
             "text_alignment": "center",
             "color_scheme": "background-1",
             "link": ""
@@ -24,7 +24,7 @@
     "header": {
       "type": "header",
       "custom_css": [
-        "@media screen and (min-width: 749px) {span {color: #fff; text-shadow: #111 3px 2px 7px; }}"
+
       ],
       "settings": {
         "logo_position": "top-center",
@@ -51,7 +51,7 @@
             "overlay_opacity": 0,
             "title": "FireApesFD",
             "text": "<p>EMBROIDERY • SCREEN • SUBLIMATION • DTG • DTF<\/p>",
-            "color_text": "#ffffff",
+            "color_text": "#dd371d",
             "button_label": "",
             "button_link": "",
             "color_btn_bg": "#ffffff",
@@ -61,6 +61,9 @@
       },
       "block_order": [
         "sections--16760795594981__16200ec5-5730-4aa1-8078-21372b56d0be-1683670026130f70c3-0"
+      ],
+      "custom_css": [
+
       ],
       "settings": {
       }
