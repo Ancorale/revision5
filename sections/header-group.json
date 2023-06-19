@@ -48,9 +48,10 @@
           "type": "video",
           "settings": {
             "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/4d8c3a6e392042128dce8af67b79b297.mp4",
+            "video_image": "shopify:\/\/shop_images\/fireapes_copy.png",
             "overlay_opacity": 0,
-            "title": "FireApesFD",
-            "text": "<p>EMBROIDERY • SCREEN • SUBLIMATION • DTG • DTF<\/p>",
+            "title": "",
+            "text": "",
             "color_text": "#dd371d",
             "button_label": "",
             "button_link": "",
@@ -63,7 +64,7 @@
         "sections--16760795594981__16200ec5-5730-4aa1-8078-21372b56d0be-1683670026130f70c3-0"
       ],
       "custom_css": [
-
+        "h1,div {font-size: 2em; font-weight: 900; text-shadow: #000 1px 1px 1px;}"
       ],
       "settings": {
       }
